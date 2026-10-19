@@ -1,0 +1,23 @@
+# Build output
+Debug/
+Release/
+*.elf
+*.bin
+*.hex
+*.map
+*.list
+*.o
+*.d
+*.su
+
+# Local IDE settings
+.settings/
+.launch
+*.launch
+
+# Secrets - never commit these.
+# Only the template with empty fields goes into the repo: secrets_template.h
+secrets.h
+credentials.h
+wifi_config.h
+.env
